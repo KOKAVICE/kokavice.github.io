@@ -2,89 +2,71 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NAJLEPSZY TOWAR W MIEŚCIE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kokavice</title>
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      max-width: 600px;
-      margin: 40px auto;
-      padding: 0 20px;
-      color: #222;
-      background: #fff;
-      line-height: 1.5;
+      background-color: #e60000; /* czerwone tło */
+      color: #000; /* czarny tekst */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
     }
-    h1 {
-      text-align: center;
-      font-weight: 700;
-      margin-bottom: 0;
-    }
-    p.subtitle {
-      text-align: center;
-      color: #555;
-      margin-top: 5px;
-      font-style: italic;
+    header {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
     }
     section {
-      margin-top: 40px;
+      max-width: 600px;
+      width: 100%;
+      margin-bottom: 2rem;
     }
     h2 {
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 5px;
-      margin-bottom: 15px;
-      font-weight: 600;
-      color: #333;
+      border-bottom: 2px solid #000;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
     }
-    ul {
-      list-style: none;
-      padding-left: 0;
+    .contact {
+      line-height: 1.6;
     }
-    li {
-      margin-bottom: 8px;
-    }
-    a {
-      color: #0073e6;
+    .social a {
+      display: block;
+      color: #000;
       text-decoration: none;
+      margin-bottom: 0.5rem;
     }
-    a:hover {
-      text-decoration: underline;
-    }
-    .social-icons a {
-      margin-right: 10px;
-      font-size: 1.5em;
-      vertical-align: middle;
+    .logo {
+      font-size: 6rem;
+      font-weight: bold;
+      letter-spacing: 0.2em;
+      margin-bottom: 1rem;
     }
   </style>
 </head>
 <body>
-  <h1>Kokavice</h1>
-  <p class="subtitle">NAJLEPSZY TOWAR W MIEŚCIE</p>
+  <div class="logo">KV</div>
+  <header>Kokavice</header>
 
-  <section>
+  <section class="contact">
     <h2>Kontakt</h2>
-    <ul>
-      <li><strong>Manager:</strong> Jan Kowalski — <a href="mailto:manager@kokavice.pl">manager@kokavice.pl</a> — tel. 123 456 789</li>
-      <li><strong>Realizator:</strong> Anna Nowak — <a href="mailto:realizator@kokavice.pl">realizator@kokavice.pl</a> — tel. 987 654 321</li>
-    </ul>
+    <p><strong>Kornel Barwiński</strong> — Manager<br />Tel: 690 940 916<br />Email: <a href="mailto:contact@bem8s.com">kornel@barvinsky.studio</a></p>
+    <p><strong>Maciej Kamil</strong> — Realizator FOH<br />Tel: 600 251 897<br />Email: <a href="mailto:maciej.kamil@poczta.fm">maciej.kamil@poczta.fm</a></p>
+  </section>
+
+  <section class="social">
+    <h2>Streaming & Social Media</h2>
+    <a href="https://music.youtube.com/search?q=kokavice" target="_blank">YouTube Music</a>
+    <a href="https://open.spotify.com/artist/3sH582c6GfbFMWoVG1vhEM" target="_blank">Spotify</a>
+    <a href="https://www.instagram.com/kokavice/" target="_blank">Instagram</a>
   </section>
 
   <section>
     <h2>Rider techniczny</h2>
-    <p><a href="rider.pdf" target="_blank" rel="noopener">Pobierz rider techniczny (PDF)</a></p>
+    <p>Do ustalenia — szczegóły wkrótce.</p>
   </section>
-
-  <section>
-    <h2>Znajdziesz nas na</h2>
-    <p class="social-icons">
-      <a href="https://open.spotify.com/artist/..." target="_blank" rel="noopener">Spotify</a> | 
-      <a href="https://youtube.com/..." target="_blank" rel="noopener">YouTube</a> | 
-      <a href="https://facebook.com/..." target="_blank" rel="noopener">Facebook</a> | 
-      <a href="https://instagram.com/..." target="_blank" rel="noopener">Instagram</a>
-    </p>
-  </section>
-
-  <footer style="text-align:center; margin-top:40px; font-size:0.9em; color:#777;">
-    &copy; 2025 Kokavice. Wszystkie prawa zastrzeżone.
-  </footer>
 </body>
 </html>
